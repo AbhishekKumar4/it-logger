@@ -1,0 +1,42 @@
+{
+    "logs" : [
+        {
+            "id" : 1,
+            "message" : "Change RAM",
+            "attention" : false,
+            "date" : "27-07-2020",
+            "tech" : "Roger Smith"
+        },
+        {
+            "id" : 2,
+            "message" : "Change HDD",
+            "attention" : true,
+            "date" : "07-09-2020",
+            "tech" : "Tim Timothy"
+        },
+        {
+            "id" : 3,
+            "message" : "Change Monitor",
+            "attention" : false,
+            "date" : "17-10-2020",
+            "tech" : "Bryan Kendrick"
+        }
+    ],
+    "techs" : [
+        {
+            "id" : 1,
+            "firstName" : "Roger",
+            "lastName" : "Smith"
+        },
+        {
+            "id" : 2,
+            "firstName" : "Tim",
+            "lastName" : "Timothy"
+        },
+        {
+            "id" : 3,
+            "firstName" : "Bryan",
+            "lastName" : "Kendrick"
+        }
+    ]
+}
