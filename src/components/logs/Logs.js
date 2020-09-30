@@ -20,7 +20,7 @@ const Logs = () => {
                 "id" : 1,
                 "message" : "Change RAM",
                 "attention" : false,
-                "date" : "27-07-2020",
+                "date" : "07-07-2020",
                 "tech" : "Roger Smith"
             },
             {
@@ -34,7 +34,7 @@ const Logs = () => {
                 "id" : 3,
                 "message" : "Change Monitor",
                 "attention" : false,
-                "date" : "17-10-2020",
+                "date" : "03-10-2020",
                 "tech" : "Bryan Kendrick"
             }
         ]
