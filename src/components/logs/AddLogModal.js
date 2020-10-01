@@ -18,7 +18,7 @@ const AddLogModal = () => {
                     <input type="text" name="message" value={message} onChange={ e => setMessage(e.target.value)}></input>
                     <label htmlFor="message" className="active">Log Message</label>
                 </div>
-            </div>
+            
 
             <div className="row">
                 <div className="input-field">
@@ -42,9 +42,9 @@ const AddLogModal = () => {
                     </p>
                 </div>
             </div>
-
+            </div>
             <div className="modal-footer">
-                <a href="#" onClick={onSubmit} className="modal-close waves-effect waves-green btn-flat"></a>
+                <a href="#!" onClick={onSubmit} className="modal-close waves-effect waves-green btn">Enter</a>
             </div>
         </div>
     )
