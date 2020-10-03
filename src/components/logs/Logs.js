@@ -14,32 +14,8 @@ const Logs = () => {
 
     const getLogs = async () => {
         setLoading(true);
-        //const res = await fetch('/logs');
-        //const data = await res.json();
-
-        const data = [
-            {
-                "id" : 1,
-                "message" : "Change RAM",
-                "attention" : false,
-                "date" : "07-07-2020",
-                "tech" : "Roger Smith"
-            },
-            {
-                "id" : 2,
-                "message" : "Change HDD",
-                "attention" : true,
-                "date" : "07-09-2020",
-                "tech" : "Tim Timothy"
-            },
-            {
-                "id" : 3,
-                "message" : "Change Monitor",
-                "attention" : false,
-                "date" : "03-10-2020",
-                "tech" : "Bryan Kendrick"
-            }
-        ]
+        const res = await fetch('http://localhost:5000/logs');
+        const data = await res.json();
 
         setLogs(data);
         setLoading(false);
