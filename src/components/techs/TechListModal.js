@@ -8,6 +8,7 @@ const TechListModal = ({ getTechs, tech: { techs, loading } }) => {
 
     useEffect(() => {
         getTechs();
+        // eslint-disable-next-line
     }, []);
 
     return (
