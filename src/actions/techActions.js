@@ -55,13 +55,13 @@ export const deleteTech = (id) => async dispatch => {
 
     try {
         setLoading();
-        const response = await fetch(`http://localhost:5000/techs/${id}`, {
+        await fetch(`http://localhost:5000/techs/${id}`, {
             method: 'DELETE'
         });
-        const data = await response.json();
+
         dispatch({
             type: DELETE_TECH,
-            payload: data
+            payload: id
         });
     } catch (error) {
         dispatch({
